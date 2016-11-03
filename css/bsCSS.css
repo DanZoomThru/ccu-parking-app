@@ -1,0 +1,43 @@
+#formbody{
+	/*background-color:e6e6e6;*/
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+.jumbotron{
+	font-family:"Optima";
+    background-color:#007073 !important;
+    color:white;
+}
+
+.page-header{
+	/*background-color:e6e6e6;*/
+	color:white;
+}
+
+.modal-header, h4, .close{
+	background-color:#007073;
+	color:white !important;
+	text-align:center;
+	font-size:30px;
+}
+			
+.model-header{
+	padding:35px 50px;
+}			
+	
+.modal-body{
+	padding:40px 50px;
+}
+	
+.modal-footer{
+	background-color:#007073;
+}
+
+.panel-footer{
+	margin-top:30px;
+}
+
+
