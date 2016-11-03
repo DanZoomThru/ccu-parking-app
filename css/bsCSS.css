@@ -1,5 +1,10 @@
+body{
+	background-color:#e6e6e6;
+}
+
 #formbody{
 	/*background-color:e6e6e6;*/
+	text-align:center;
 	padding-top:15px;
 	padding-bottom:15px;
 	margin-left:15px;
@@ -11,6 +16,7 @@
     background-color:#007073 !important;
     color:white;
 }
+
 
 .page-header{
 	/*background-color:e6e6e6;*/
@@ -38,6 +44,23 @@
 
 .panel-footer{
 	margin-top:30px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+#loginBtn{
+	background-color:#007073;
+	color:white;
+	margin-right:30px;
+}
+
+#signupBtn{
+	background-color:#007073;
+	color:white;	
+	margin-left:30px;
 }
 
 
