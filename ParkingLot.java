@@ -3,7 +3,7 @@
 * IngredientForRecipe.java
 * Purpose: This program creates a ParkingLot object.
 * 
-* @author Jonathan Winters, 
+* @author Jonathan Winters, Hailey Crouse, Frankie Murray, CJ Garling
 * @date Created 7 November 2016
 * @version 1.0, 7 November 2016
 */
