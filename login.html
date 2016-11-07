@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">	
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>CCU Parking App Login</title>
+		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/bsCSS.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -104,29 +108,26 @@
 			
 		</div>
 		
-		<div class="container-fluid">
-			<div class="panel-footer">
-				<div class="media">
-					<div class="media-left">
-						<img src="img/cculogo.png" class="media-object" style="width:180px">
-					</div>
-				</div>
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container-fluid">
+				<img src="img/cculogo.png" class="media-object" style="width:180px">
 			</div>
 		</div>			
-	 
+		
 	<script>
-	$(document).ready(function(){
-		$("#loginBtn").click(function(){
-			$("#loginModal").modal();
+		$(document).ready(function(){
+			$("#loginBtn").click(function(){
+				$("#loginModal").modal();
+			});
 		});
-	});
-	
-	$(document).ready(function(){
-		$("#signupBtn").click(function(){
-			$("#signupModal").modal();
-		});
-	});	
+		
+		$(document).ready(function(){
+			$("#signupBtn").click(function(){
+				$("#signupModal").modal();
+			});
+		});	
 	</script>
+	
 
 	</body>
 </html>
