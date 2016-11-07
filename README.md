@@ -6,3 +6,6 @@ Hailey was here :)
 
 What up my dudes. -Jonathan
 I AM JONBOT 2.0
+
+
+I added a ParkingLot.java file - Jonathan
