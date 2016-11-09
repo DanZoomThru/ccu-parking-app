@@ -62,84 +62,113 @@
           //zoom with best view of campus parkinglots
           zoom: 16
         });
+        var gglotinfo = new google.maps.InfoWindow({
+          content: '<h1>Lot GG</h1><br><p>Here is our database output for this lot.</p>'
+        });
         var markerGG1 = new google.maps.Marker({
           position: lotGG1,
           map: map,
+          icon: 'img/all_student_parking.png',
           title: 'Lot GG'
         });
         var markerGG2 = new google.maps.Marker({
           position: lotGG2,
           map: map,
+          icon: 'img/all_student_parking.png',
           title: 'Lot GG'
         });
         var markerGG3 = new google.maps.Marker({
           position: lotGG3,
           map: map,
+          icon: 'img/all_student_parking.png',
           title: 'Lot GG'
         });
+        markerGG1.addListener('click', function(){
+          gglotinfo.open(map,markerGG1);
+        });
+        markerGG2.addListener('click', function(){
+          gglotinfo.open(map,markerGG2);
+        });
+        markerGG3.addListener('click', function(){
+          gglotinfo.open(map,markerGG3);
+        })
+
         var markerKK1 = new google.maps.Marker({
           position: lotKK1,
           map: map,
+          icon: 'img/commuter_parking.png',
           title: 'Lot KK'
         });
         var markerKK2 = new google.maps.Marker({
           position: lotKK2,
           map: map,
+          icon: 'img/commuter_parking.png',
           title: 'Lot KK'
         });
         var markerG = new google.maps.Marker({
           position: lotG,
           map: map,
+          icon: 'img/commuter_parking.png',
           title: 'Lot G'
         });
         var markerQQ1 = new google.maps.Marker({
           position: lotQQ1,
           map: map,
+          icon: 'img/commuter_parking.png',
           title: 'Lot QQ'
         });
         var markerQQ2 = new google.maps.Marker({
           position: lotQQ2,
           map: map,
+          icon: 'img/commuter_parking.png',
           title: 'Lot QQ'
         });
         var markerDD = new google.maps.Marker({
           position: lotDD,
           map: map,
+          icon: 'img/res_parking.png',
           title: 'Lot DD'
         });
         var markerBB = new google.maps.Marker({
           position: lotBB,
           map: map,
+          icon: 'img/res_parking.png',
           title: 'Lot BB'
         });
         var markerHH1 = new google.maps.Marker({
           position: lotHH1,
           map: map,
+          icon: 'img/res_parking.png',
           title: 'Lot HH'
         });
         var markerHH2 = new google.maps.Marker({
           position: lotHH2,
           map: map,
+          icon: 'img/res_parking.png',
           title: 'Lot HH'
         });
         var markerAA1 = new google.maps.Marker({
           position: lotAA1,
           map: map,
+          icon: 'img/commuter_parking.png',
           title: 'Lot AA'
         });
         var markerAA2 = new google.maps.Marker({
           position: lotAA2,
           map: map,
+          icon: 'img/commuter_parking.png',
           title: 'Lot AA'
         });
         var markerEE1 = new google.maps.Marker({
           position: lotEE1,
           map: map,
+          icon: 'img/res_parking.png',
           title: 'Lot EE'
         });
         var markerEE2 = new google.maps.Marker({
           position: lotEE2,
           map: map,
+          icon: 'img/res_parking.png',
           title: 'Lot EE'
         });
         var infoWindow = new google.maps.InfoWindow({map: map});
