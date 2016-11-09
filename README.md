@@ -9,3 +9,5 @@ I AM JONBOT 2.0
 
 
 I added a ParkingLot.java file - Jonathan
+
+CHARLES (C.J.) IS CURRENTLY WORKING ON GETTING THE MAP TO LOOK PRETTIER 
