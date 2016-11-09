@@ -56,7 +56,7 @@
           minZoom:15,
           maxZoom:18,
 
-          center: {lat: -34.397, lng: 150.644},
+          center: {lat: 33.7950, lng: -79.0117},
           mapTypeControl: true,
           mapTypeConrolOptions:{
           style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
