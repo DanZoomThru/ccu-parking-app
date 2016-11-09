@@ -49,7 +49,7 @@
           // scrollwheel: false,
           // //disable street view 
           streetViewControl: false,
-          minZoom:16,
+          minZoom:15,
           maxZoom:18,
 
           center: {lat: -34.397, lng: 150.644},
